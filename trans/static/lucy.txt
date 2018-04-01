@@ -1,0 +1,1107 @@
+﻿
+以下问题可能导致设备联网失败,建议避免:
+The following problems may result in the failure of device networking, please try to avoid it:
+未找到我的蓝牙设备?
+Not finding Bluetooth device?
+未找到该图片
+This picture is not found.
+登录失败
+Login failed
+请输入群名
+Please enter group name.
+我的
+Me
+确定要这么做吗?
+Sure to do it?
+对方离线
+offline
+按住说话
+Press to speak
+必需先添加设备才能创建新群,现在就去添加设备吗?
+You need to add device to create a new group firstly, add now?
+连接设备
+Connect device
+验证码错误
+Wrong verification code.
+密码必需同时包含数字和字母,长度在6-18位
+Password should be within 6-18 digits including numbers and letters.
+这个WiFi连接不上网络,换一个WiFi试试吧
+Oops, fail to connect current WiFi, please try another one.
+%@与%@通话结束,通话时长:%@
+%@ ends The end of call %@%& @, call time:%@
+删除
+Delete
+现在就去
+Operate now
+扫一扫上面的二维码即可进群
+Join group by scanning QR code.
+人员逗留报警
+Staff stay alarm
+智能视频门铃
+Smart video doorbell
+上传头像失败
+Uploading photo failed.
+设备时区
+Device time zone
+没有进入设置状态
+No entry status
+设备时间有误,需要校对时间
+Wrong device time, please proof time
+对方已挂断
+Hang up
+系统消息
+System messages
+连接成功后,点击手机屏幕上方弹出的提示横幅跳转回%1$@(需打开通知横幅开关)\n如未接收到提示,请手动回到%2$@如
+Click pop-up at the top of the phone's screen to jump back after connecting successfully, if no message received,Please go back to %2$@,for example:
+访客呼叫
+Visitor call
+去设置WiFi
+Go to set WiFi
+%@呼叫了你一次
+%@ call you once
+取消
+Cancel
+确定删除TA的智能锁权限?
+Sure to delete his intelligent lock permission?
+请将信息填写完整
+Please fill in complete information
+联系客服
+Contact Customer Service
+检查是否开启了WiFi防蹭网,此设置可能会导致设备无法正常联网.您可以临时关闭防蹭网,设备成功联网后再恢复路由器设置即可;
+Check to see if the WiFi anti rubbing network has been enabled which may cause connecting problem.You can temporarily shut down the anti-rubbing network after the successful networking of the device, then restore the router settings.
+服务协议
+Service agreement
+后台管理选择允许后台运行
+Allow background operation.
+原图
+Full image
+录音时间太短
+Too short recording time.
+密码不能为空
+Password can’t be empty
+时间异常:
+Abnormal time
+确定
+Confirm
+固件版本
+Firmware version
+重新添加设备
+Re-add device
+白光灯:开启
+White light: on
+没有发现这把锁,请确保您在这把锁的附近并且已经唤醒了该锁
+No lock is found, please make sure you are near to the lock and have waken it up.
+请用听筒接听
+Please answer by the receiver.
+请选择结束时间
+Please choose end time.
+蓝灯已经闪烁
+Blue light is blinking
+请先将该设备从群中移除才能解绑
+Please remove the device from the group before binding it.
+静音
+Mute
+设置声音模式为无限制
+Set sound mode to unrestricted
+暂无可分享的用户
+No shared users can be found.
+WiFi密码
+WiFi password
+请从底部上滑,打开蓝牙
+Slide up to turn on Bluetooth.
+全选
+Select all
+确定分享吗?
+Sure to share?
+登录超时
+Login timeout
+智能锁
+Smart lock
+添加过程出了一点小问题
+Some minor problems appeared during adding.
+门卡开锁
+Unlock by the door card.
+请尽量使您的手机靠近设备,以确保通信正常
+Please try to make your mobile phone close to the device to ensure communication is normal
+复位智能锁
+Reset smart lock.
+您的账号已被限制,无法获取验证码
+Unable to acquire verification code due to restricted account.
+上拉加载
+Pull up loading
+同步数据完成
+Synchronization data completion
+意见反馈
+Feedback
+门铃对WiFi有什么要求?
+Any WiFi requirements?
+获取验证码
+Acquire
+[视频]
+Video
+点击箭头选择WiFi
+Select WiFi by clicking the arrow.
+等待接听
+Wait for answering.
+无法使用您的相机,请在[设置]->[隐私]->[相机]中允许[%@]使用您的相机
+Unable to use your camera, please go to settings—privacy—camera—allow to use.
+操作成功
+Operation succeeded.
+小豚当家智能视频门铃
+Dophigo Smart Video Doorbell
+可能是您的门铃连接的WiFi有问题,导致未成功连接门铃,请选择门铃可用的WiFi再试一次哦!
+Fail to connect to doorbell due to Wifi problem, please try again with an available Wifi.
+保存
+Save
+下载升级文件失败
+Download upgrading file failed.
+智能锁没有复位
+Not resetting smart lock.
+室内机音量
+Volume of indoor unit
+分享锁
+Sharing lock
+无法连接到服务器,请检查你的网络设置
+Unable to connect to your server, please check network settings.
+如果您家的WiFi是桥接的,因为桥接的原因可能会导致您的网络非常不稳定,建议连接非桥接的WiFi;
+If your home WiFi is a bridge network, we suggest you to choose non-bridged one due to stable network.
+请将手机连接到以%@开头的WiFi上,连接成功后请返回%@APP
+Please let your phone connect to Wi-Fi starting with %@ and go back to %@ after connecting successfully.
+绑定成功
+Bind successfully
+报警设置
+Alarm settings.
+扫一扫
+Scan
+正在接通
+Connecting⋯
+保存到了:
+Saved
+您当前的这个WiFi可能是一个5G频段的WiFi,可能会导致设备连接不上网络,
+建议您选择一个2.4G频段的WiFi,您确定还要继续吗?
+You are connecting 5G Wi-Fi which doesn’t support by our device, please change 2.4G Wi-Fi to connect, sure to continue?
+验证码不存在或已失效
+The verification code does not exist or has been invalid.
+请插入SD卡
+Please insert SD card.
+确认密码
+Confirm password
+蓝牙处于关闭状态
+Bluetooth is on inactive state
+创建新群
+Create new group.
+前天
+The day before yesterday
+删除之后,该设备将从你的设备列表中彻底移除
+This device will be totally removed from your device listing after deleting.
+您已被移出本群
+You have been removed from this group.
+已经选中%@项
+Selected %@
+室外机音量
+Outdoor unit volume
+小豚当家智能锁
+Dophigo Smart Lock
+%@还在等你哦!\n快快点击按钮来添加属于你的%@吧!
+%@ is waiting for you, please click here to add your %@.
+群二维码
+Group QR code
+筛选
+Select
+所在群
+Group
+加载网页失败,请检查您的网络
+Network loading failed, please check your network.
+管理员密码开锁
+Admin password unlock
+设备已经创建群了,不需要重复创建
+The group has been created by this device, no need to do it again.
+删除这最后一个成员之后,该群将被自动解散,确定要这么做吗?
+This group will be dissolved when you delete the last group member, sure to do it?
+解绑设备
+Unbind
+拨打&#160;&#160;4008785787
+Please call &#160;&#160;4008785787
+未查询到设备
+No device is found.
+删除分享之后,该好友将失去智能锁的权限
+Your friend’s permission of smart lock will be canceled after deleting sharing.
+确定要解除绑定吗?
+Sure to unbind?
+请先创建群
+Please create group firstly.
+请先选择WiFi
+Please select WiFi firstly.
+记录与影像
+Record and image
+分享者信息
+Sharer information
+[语音]
+Voice
+图像
+Image
+请选择要添加的设备
+Please choose device
+管理群(%@人)
+Administration group(%@ people)
+密码错误
+Wrong password
+微信公众号
+WeChat official Account
+消息提醒设置说明
+Message reminder settings
+网络异常
+Abnormal network
+低电量
+Low battery
+群成员不存在
+Group members don’t exist
+官网
+Official website
+拍照
+Take photos
+请检查系统设置或者第三方软件里是否禁止了小豚当家调用摄像头
+Please check system settings if camera permission for Dophigo is prohibited.
+立即更新
+Update now.
+WiFi密码过长
+WiFi password is too long.
+大
+High
+准备门铃设备
+Prepare doorbell device
+继续
+Continue
+指纹开锁
+Fingerprint unlock
+已是最新版本
+It’s already the latest version.
+修改昵称
+Change name
+电量
+Battery
+现在
+Now
+连接超时
+Connection failed.
+用户不存在
+Non-existing users
+开始连接
+Start to connect
+群不存在
+Group doesn’t exist
+图像设置
+Image settings
+正在连接智能锁...
+Connecting Smart Lock⋯
+暂不支持输入表情
+Emoji doesn’t support now.
+选择门铃要连接的WiFi
+Please choose Wi-Fi for doorbell.
+正在搜索蓝牙设备
+Searching for Bluetooth devices.
+账号不存在,请先注册账号
+Account doesn’t exist, please register one firstly.
+请将手机连接到WiFi上,连接成功后请返回%@APP
+Please let phone connect to Wi-Fi and back to %@APP after connecting successfully.
+我已复位,下一步
+Reset done, next.
+设备型号
+Device model
+设备时间
+Device time
+电子动态码丢失,需要重发
+Electronic dynamic code has been lost, please send again.
+昨天
+Yesterday
+快快点击按钮来添加属于你的小豚吧!
+Click here to add device.
+电量不足报警
+Low battery alarm
+设备未连接
+Device not connected
+通话结束
+Call ended
+返回设备首页
+Back to device home page.
+如果您有任何疑问,请拨打客服热线,联系我们的客服人员,感谢您的支持!
+Any problems, please call customer hotline to contact our customer service, thanks for your support.
+今天
+Today.
+设备暂时不支持WPA/WPA2企业级的WiFi,请选择其他WiFi;
+WPA/WPA2 is not supported, please choose other Wi-Fi.
+还可以录制%@秒
+You can still record %@ seconds.
+高清
+HD
+手机号
+Telephone numbers.
+暂无已分享的用户
+Sharing users are not available now.
+请输入遇到的问题现象(500字以内)
+Please describe your problem(within 500 letters)
+未获取到开锁密钥,无法开锁
+Unable to obtain unlocked password.
+这台设备已经被%@绑定了,请联系这个用户解绑这台设备后,您才能绑定这台设备
+This device has been binded, please contact the owner to unbind it firstly.
+请输入昵称
+Please enter device name
+重要提醒
+Important reminder
+WiFi名过长
+WiFi name is too long
+对方正在通话中
+The other party in on the phone.
+没有更多了
+No more.
+绑定智能锁
+Bind Smart Lock
+分享之后,该好友将拥有智能锁的权限
+Your friend will have the permission of smart lock after sharing.
+选择项目
+Option
+提交
+Submit
+嗨,快点击这里返回到%@APP吧
+Hey,click here to go back to %@APP.
+通过二维码分享
+Share by QR code.
+修改密码
+Change password
+确定将设备分享?
+Sure to share this device?
+已选择
+Selected
+开锁者
+Unlocked person
+设备音乐
+Device music
+所在群:%@
+Group: %@
+修改管理员密码
+Change administer password
+是否同时保存到系统相册?
+Save to the system album at the same time?
+打开允许通知
+Enable permission notifications
+产品名称
+Product name
+听筒
+Receiver
+加载中
+Loading...
+选择音乐
+Select music
+网络不给力
+Poor network.
+设备连接中
+Device connecting...
+免提
+Speaker.
+手指上滑,取消发送
+Slide up to cancel.
+暂无影像
+No images.
+如何设置
+How to set?
+年
+Year
+长时间没有声音,请检查麦克风是否被禁用
+If there is no sound for a long time, please check if the microphone is disabled
+内容的总长度不能超过%@哦
+The total length can’t be more than %@.
+%@录制了一条留言
+%@ recorded a message.
+帮助与反馈
+Help and feedback.
+点击"%@"系统会自动跳转至WiFi列表中,连接%@开头的WiFi,如下图所示:\n如无法跳转,请手动前往WiFi列表
+Click "%@" and you will jump to Wi-Fi listing automatically, please select the Wi-Fi starting with %@.If not working, please go to set it manually.
+您当前正在打电话
+You are having a call.
+设备编号
+Device code
+账号
+Account
+没有更多消息了,不要再拉啦
+No more messages.
+远程记录
+Records.
+中
+Middle
+选择信号较强的WiFi,正确填写WiFi密码后即可快速让设备联网
+Select strong Wi-Fi signal, input correct password and you can quickly connect to the network
+关闭
+Off
+连接成功
+Connecting successfully
+未知方式
+Unknown ways
+发现新版本
+New version has been found.
+新版本已下载,是否立即更新
+New version downloaded, update now?
+正在通话
+On the phone
+分享成功
+Sharing successfully
+录音失败,录音时间太短或请确认是否开启麦克风权限
+Recording failed due to short recording time or make sure enable microphone to use.
+删除后,将取消对好友的智能锁分享
+Sharing permission of smart lock to friends will be cancelled after deleting.
+新密码
+New password
+关于小豚
+About Dophigo
+等待连接
+Wait for connection
+发送
+Send
+下次再说
+Next time
+小
+Small
+取消全选
+Cancel to select all
+添加设备
+Add device
+动态密码开锁
+Dynamic password unlocking
+账户信息
+Account information
+日
+Day
+智能音频门铃
+Smart Audio Doorbell
+手机号不能为空
+Telephone numbers can’t be empty.
+白光灯:关闭
+White light: off
+请按照教程复位智能锁,才能进入下一步
+Please reset the smart lock according to the instructions to get into the next step.
+消息不能为空
+Notifications can’t be empty.
+电子钥匙过期
+Electronic key expired
+设备信息
+Device information
+没有进入配对状态
+Pairing state is not ready.
+请按照以下方式从手机底部上滑打开蓝牙
+Please slide to enable Bluetooth from the bottom of your cell phone by the following ways.
+没有找到相关记录
+No related records are found.
+相册
+Album
+打开自启动
+Enable self-start.
+开锁记录
+Unlocked records
+打开允许通知和悬浮通知
+Enable permission and suspension notifications.
+请选择要删除的影像
+Please select the image to be deleted
+正在打开蓝牙...
+Turning on Bluetooth⋯
+小豚还在等你哦!
+Here waiting for you~
+用户头像
+Profile photo
+无法自动跳转,请点击如何设置查看设置教程!
+Unable to jump automatically, please click on how to set up.
+命令响应超时
+Command response timeout
+图像和声音
+Picture and sound
+车位锁已经开启
+Parking lock has been enabled.
+下一步
+Next step
+正在同步数据
+In the process of synchrodata
+标清
+SD
+已选择%@项确定删除?
+%@ selected, sure to delete?
+请输入联系电话
+Please enter phone numbers
+设备已经加入了其他群
+The device has been added to other groups.
+选择的时间不正确
+You’ve selected the incorrect time.
+请尽量使您的设备靠近路由器,并确保网络环境良好
+Please try to make your device close to the router and ensure network environment is good.
+电子钥匙不在开锁时间内
+The electronic key is not in the unlocked time
+操作失败
+Operation failed
+正在加载
+Loading
+我已设置
+I have set up
+获取周围的WiFi失败,请确保手机系统开启了定位功能和WiFi开关,
+并且允许小豚当家APP使用定位权限,当然您也可以手动输入
+Unable to obtain surrounding Wi-Fi, please make sure enable GPS ,Wi-Fi and allow
+Dophigo to use GPS. Of course you can set it manually.
+无法跳转到WiFi列表,请您手动去[设置]->[Wi-Fi]连接WiFi
+Unable to go back to WiFi listing, please go to settings—WiFi--connect
+您已在别处登录,请重新登录
+You’ve been logged in other places, please try again.
+发现人员逗留
+Discover people staying
+确定这个WiFi没有密码吗?
+No WiFi password?
+未知记录类型
+Unknown recording type
+来访记录
+Visitor records
+手机号已被使用,请换个别的手机号试试
+This phone has been used by other people, please try another phone numbers.
+无效的二维码
+Invalid QR code
+钥匙开锁
+Key unlock
+设备ID
+Device ID
+发送失败
+Fail to send.
+确定删除系统消息?
+Sure to delete system message?
+视频制式
+Video format
+验证码不正确
+Wrong verification code
+全部
+All
+找回密码
+Retrieve the password
+长按开锁
+Long press lock
+错误
+Error
+无法使用摄像头
+Unable to use camera
+您的账号处于锁定状态,请稍候再试
+Your account has been locked, please try again later.
+未知错误
+Unknown error
+设备添加成功,快去体验吧!
+Add device successfully, enjoy it!
+请输入当前WiFi的密码,然后进入下一步
+Please enter WiFi password
+正在下载
+Downloading⋯
+无法识别的消息
+Unrecognized messages
+连接蓝牙
+Connect to Bluetooth
+未获取到
+Not obtained.
+未获取到该群的信息
+No information obtained.
+车位锁没有状态
+Parking locks have no state
+连接失败
+Connection failed.
+查看大图
+Full image
+设备名称
+Device name
+请确保设备已装上电池,并且保持电量充足
+Please make  sure the device has a fully charged battery
+关闭后台冻结和自动优化
+Enable background freezing and automatic optimization
+这条消息已经过期了
+This message has been expired.
+打开自启动和关联启动
+Enable self-start and association-start
+拍摄
+Take photo
+内容不能为空
+Contents can’t be empty.
+选择WiFi
+Select WiFi
+您不是这个群的群主,没有管理这个群的权限!
+You are not the owner of this group and have no administrative authority.
+播放失败
+Play failed.
+分享
+Share
+录音失败
+Recording failed.
+群成员达到上限
+Group members has been reached to the upper limit.
+我知道了
+Get it.
+关闭锁屏清理
+Close the lock screen cleaning
+确定退出登录?
+Sure to log out?
+电话号码方便客服更快的联系到你
+Please leave your phone number and we can contact you directly.
+文字过长,请删减部分文字
+Please delete some words.
+画面与声音
+Picture and sound
+您不是这个设备的主人,不能完成这个操作
+You are not the owner of this device and have no right to operate it.
+防拆报警
+Tamper alarm
+如果您家是双频路由器,请检查设备连接的WiFi是否是5GHz频段的WiFi,请让设备连接2.4GHz频段的WiFi;
+Please choose 2.4G WiFi to connect if your router is Dual Band one.
+已经进入配对状态
+Pairing state
+设备昵称
+Device name
+感谢您的建议,您的反馈是我们前进的动力,我们会尽快处理!
+Much appreciated for your suggestions and feedback and we will deal with it ASAP!
+语音接听
+Voice reception
+此图片无效
+This picture is invalid.
+打开后台运行
+Enable background operation
+门铃来电提醒设置说明
+Doorbell call reminder setup instructions
+消息发送失败,是否重新发送?
+Fail to send message, try again?
+蓝灯没有闪烁?
+The blue light is not blinking?
+手机号格式不正确
+Incorrect phone number format.
+确定删除?
+Sure to delete?
+设备不存在
+Device doesn’t exist.
+设备此时可能已经进入休眠状态,请按呼叫键唤醒设备
+The device may be in a resting state at this time, please wake it up by pressing the call button.
+拨打 4008785787
+Please dial 4008785787.
+您已经是群成员了
+You are already the group members.
+最新版本
+The latest version.
+系统正在维护,请稍后再试
+The system is under maintenance, please try again later.
+嗨,快点击这里返回到%@吧
+Hey, please click here to go back to %@.
+请选择一台设备来创建群
+Please select one device to create group.
+开始日期
+Start date
+确定要清空聊天记录吗?
+Sure to clear history chat?
+回到%@,等待连接,1分钟内即可完成连接
+Back to %@,wait for connecting for 1 minutes.
+保存成功
+Save successfully
+WiFi名字
+Wifi name
+流畅
+LD
+用户密码开锁
+User password unlock
+临时密码开锁
+Temporary password unlock
+无法使用您的照片,请在[设置]->[隐私]->[照片]中允许[%@]使用您的照片
+Unable to use your photo, please go to settings—privacy—photo—allow t use.
+扫码加群
+Scan code and join group.
+立即升级
+Upgrade now
+挂断
+Hang up
+电量低
+Low battery
+请选择开始时间
+Please select the start time
+确认新密码
+Confirm new password
+无法使用您的麦克风,请在[设置]->[隐私]->[麦克风]中允许[%@]使用您的麦克风
+Unable to use your microphone, please go to settings—privacy—microphone—allow to use.
+若还是没有看到蓝灯闪烁,则请用顶针长按reset键直到"滴"声响起,设备重启后蓝灯将会闪烁并且发出"欢迎使用%@智能门铃"的提示音
+If blue light is still not flashing, please use a pin to stick the “reset” button until you heard “di” voice and “welcome to use”.
+装上电池,然后查看门铃是否蓝灯闪烁
+Please install the battery and see  if the blue light blinks
+已选(%@)
+Selected(%@)
+请输入设备名称
+Please enter device name
+%@人
+%@ members
+连接WiFi
+Connect WiFi
+短时间内密码错误次数过多,请%@分钟后再次登录
+Frequent error password, please login again after %@ minutes.
+关闭通知消息屏蔽
+Mute Notifications
+将二维码放入框内
+Align QR code within frame
+管理群
+Administer group
+密码
+Password
+关于版本
+About version
+到
+to
+两次密码不一致
+Please make sure your password is the same.
+去连接设备
+Connect devices
+完成
+Complete
+为了确保您的手机能接收到门铃来电,请设置以下%@项权限:
+Please set below %@ in order to receive call.
+[图片]
+Picture
+请您手动拨打 4008785787
+Please dial 4008785787
+成功
+Success
+暂无内容
+No contents
+清空所有聊天记录
+Clear Chat History.
+该群已解散
+This group has been deleted.
+密码错误,您还有%@次尝试机会
+Wrong password, you have %@ to try.
+开锁成功
+Unlock successfully
+群名不能为空!
+Group name can’t be empty.
+请不要输入表情
+Don’t input emoji.
+进入群聊
+Enter
+已保存到系统相册
+Saved to album.
+没有找到相关影像
+No related images are found.
+本地影像
+Local Media
+设备已被其他人绑定了
+This device has been binded by other user.
+登录
+Login
+生成开锁密码
+Generate unlocked password
+验证码
+Verification code
+确定将该用户移出本群吗?
+Sure to remove this user?
+您不是这个群的群主,没有管理这个群的权限
+You are not the owner of this group and have no administering permission.
+退出登录
+Log out.
+如何连接设备?
+How to connect devices?
+分享之后,该好友将拥有智能锁的开锁权限
+Your friend will have the permission to unlock smart lock after sharing.
+确定要删除这个设备吗?
+Sure to delete this device?
+修改群名
+Change group name.
+小豚当家
+Dophigo
+低
+Low
+小豚
+Dophigo
+您已经绑定该设备了,不需要重复绑定
+This device has been binded, no need to do it again.
+确定删除分享吗?
+Sure to delete sharing?
+设备未联网
+No network.
+%@呼叫取消
+%@ call canceled.
+松开手指,取消发送
+Release to end.
+分享列表
+Sharing list.
+超时
+Timeout
+结束时间
+End time
+蓝牙开锁
+Bluetooth unlock
+高
+High
+创建群
+Create group.
+视频
+Video
+不支持表情输入
+Emoji is not supported.
+没有进入设置状态,请复位智能锁
+Do not enter setting state, please reset the smart lock.
+该设备不是一台合法的设备
+This device is not illegal.
+对方正在留言中
+Leaving a message⋯
+松开结束
+Release to end
+权限不足
+Insufficient permission.
+检查更新
+Check for updates
+有人来访
+You have a visitor.
+未获取到文件信息
+No file information has been acquired.
+遥控开锁
+Remote control unlock
+加入群
+Join group.
+暂无记录
+No records.
+灵敏度设置
+Sensitivity settings
+是
+YES
+设置
+Settings
+%@正在与%@通话
+%@ is having a conversation with %@.
+请打开蓝牙
+Turn on Bluetooth
+%@秒后自动挂断,是否继续保持通话?
+Hang up automatically after %@ seconds, sure to proceed?
+接听
+Answer
+暂时没有消息哦
+No messages.
+群的数量达到上限
+The number of group has been reached the upper limit.
+注册
+Register
+设备
+Device
+月
+Month
+发送失败:%@
+Send failed:%@
+设备未绑定
+Device is not binding.
+下载失败
+Download failed.
+正在搜索蓝牙
+Searching for Bluetooth⋯
+添加超时
+Timeout
+将二维码放入框内,即可自动扫描
+Align QR code within frame to scan.
+我的手机
+My phone
+删除设备
+Delete device
+开始时间
+Start time
+群组
+Group Chat
+失败
+Failed
+
+去设置
+Go to settings.
+您确定要退出添加设备吗?
+Quit to add device?
+时间设置
+Time settings
+声音设置
+Sound settings.
+扫一扫上面的二维码即可分享设备
+Scan QR code to share devices.
+开始时间不能大于结束时间
+The start time is not greater than the end time.
+保存失败
+Save failed
+室内机铃声
+Sound of indoor unit
+请选择要加入的群组
+Please select group
+不再提醒
+No more reminder.
+否
+No
+管理员错误
+Administrator error
+说点什么吧
+Say something
+使用微信APP扫描上面的二维码即可关注我们,或者您也可以搜索公众号:小豚当家
+Follow us by scanning the QR code with WeChat or visit our official Account: Dophigo
+点击重试
+Try again.
+相册选择
+Album selection
+设备暂不支持5G的WiFi
+5G wifi is not supported
+结束日期
+End time
+设备电量
+Device battery
+选择时区
+Select time zone
+点击"%1$@"系统会自动跳转至WiFi列表中,连接%2$@开头的WiFi,如下图所示:\n如无法跳转,请手动前往WiFi列表
+Click "%1$@"and you will jump to Wi-Fi listing automatically, please choose the Wi-Fi starting with %2$@,see picture below.If not working, please go to WiFi listing to set it manually.
+%1$@正在与%2$@通话
+%1$@ is having a call with %2$@.
+请您手动拨打  400 8785 787
+Please dial 400 8785 787.
+您当前的这个WiFi可能是一个5G频段的WiFi,可能会导致设备连接不上网络,建议您选择一个2.4G频段的WiFi,您确定还要继续吗?
+You are connecting 5G Wi-Fi now which is not supported by our device, please change 2.4G Wi-Fi to connect, sure to continue?
+请将手机连接到以%1$@开头的WiFi上,连接成功后请返回%2$@APP
+Please let your phone connect to the Wi-Fi starting with %1$@ and go back to %2$@ after connecting successfully.
+语音
+Voice
+连接成功后,点击手机屏幕上方弹出的提示横幅跳转回%1$@(需打开通知横幅开关)\n如未接收到提示,请手动回到%2$@
+Click pop-up at the top of the  phone screen to jump back%1$@ after connecting successfully (notification announcement should be enabled) \n, if it’s not working, please go back to %2$@.
+拨打  400 8785 787
+Please dial 400 8785 787
+设置神隐模式为无限制
+Set to manage app battery usage to be unlimited.
+检查是否开启了WiFi防蹭网,此设置可能会导致设备无法正常联网.您可以临时关闭防蹭网,设备成功联网后再恢复路由器设置即可;
+Check to see if the WiFi anti rubbing network has been enabled which may cause connecting problem. You can temporarily disable anti rubbing network after connecting successfully then restore the router settings.
+图片
+Image
+是否同时保存到系统相册？
+Save to system album at the same time?
+%1$@与%2$@通话结束,通话时长:%3$@
+%1$@ ended call with %2$@,call time: %3$@.
+%1$@还在等你哦!\n快快点击按钮来添加属于你的%2$@吧!
+%1$@ is still waiting for you! \click here to add your %2$@.
+已选择%@项 确定删除?
+%@ selected, sure to delete?
+获取周围的WiFi失败,请确保手机系统开启了定位功能和WiFi开关,并且允许小豚当家APP使用定位权限,当然您也可以手动输入
+Unable to obtain surrounding Wi-Fi, please make sure to enable GPS, Wi-Fi and allow Dophigo to use GPS. Of course you can set it manually.
+二维码仅限扫描一次,%@分钟内有效
+QR code is only scanned once and valid for %@ minutes.
+生成临时密码
+Generate temporary password
+服务时间:周一至周五
+Service Hours: Monday to Friday
+输入手机号
+Enter telephone number
+%@可能已被复位,请尝试重新添加设备
+%@ might be restarted, please try to re-add it.
+验证码已发送至手机:%@
+The verification code has been sent to your phone: %@
+管理群(%@)
+Administrative group(%@)
+智能锁未唤醒,请通过触摸智能锁的键盘来唤醒智能锁
+The smart lock isn’t waken up, please wake the smart lock by touching the keyboard.
+%@秒后重新获取
+Please try again after %@ seconds.
+二维码已失效
+QR code has expired.
+(如遇网络诊断提示属于正常现象,请忽略)
+Receiving network diagnosis prompt is normal, please ignore it.
+我知道了,去生成
+Got it, generate now.
+临时密码
+Temporary password
+通过群用户分享
+Sharing by group users
+来自%@的分享
+From %@
+输入密码
+Enter password
+收到一台分享设备
+Receive one shared device
+输入验证码
+Enter verification code
+接收分享后将获取分享设备的访客权限
+After receiving sharing, access rights of the sharing device will be obtained.
+确认接收
+Confirm
+设备不能分享给自己
+Device can't be shared to yourself.
+搜索不到%@可能由以下原因造成:
+The problem of not searing out %@ may be caused by the following reasons:
+连接设备热点
+Connect device hotspot
+立刻生成
+Generate now
+选择国家与地区
+Select country/area
+从列表中选择
+Select from the list
+请关闭WLAN+模式
+Please disable WLAN+ mode
+亲友不在身边,通过群成员分享
+If relatives and friends are not around, please share it by group members.
+临时密码在有效期内可多次开锁,适合有人来访时使用,切勿轻易泄露!
+Temporary password can be used to unlock many times during the validity period and is suitable for the coming visitors, please do not reveal it easily.
+为了确保您的手机能接收到门铃来电,请设置以下权限:
+In order to ensure your cell phone can receive doorbell calls, please set the following permissions:
+地区代码无效
+Invalid country area code
+嗨,%1$@智能锁的开锁密码是:%2$@,密码的有效期是:%3$@到%4$@,赶快去使用吧!
+Hey, password of %1$@ smart lock is: %2$@,validity from %3$@ to %4$@,please enjoy it!
+开启后盖,用顶针长按Reset键直到恢复出厂设置确认信息响起,确认后即可复位成功
+Open the back cover and press the Reset button with the thimble until the factory setting confirmation message sounds. After confirmation, the reset is successful.
+忘记密码
+Forgot password
+正在生成密码
+Generating password
+小时
+Hour
+复位操作如图所示
+Reset operation as shown:
+重新进入将更新
+Enter again to update
+国家/地区
+Country/area
+分享给群成员
+Share to others
+生成结果
+Generating results
+紧急问题请发送邮件至support@dophigo.com
+Please send emails to support@dophigo.com if any urgent problems.
+智能锁分享二维码
+Share QR code by smart lock
+接收成功
+Received successfully
+欢迎登录
+Login please
+紧急问题请发送邮件至%@
+Please send e-mails to %@ if any urgent problems.
+手机距离智能锁太远,请将手机尽可能靠近智能锁
+The phone is too far away from the smart lock, please keep the phone as close to the smart lock as possible
+请选择密码的有效期
+Please choose validity.
+分钟
+Minutes
+搜索不到%@?
+Not finding %@?
+
+无法使用您的照片,请在[设置]->[隐私]->[照片]中允许[%@]使用您的照片
+Unable to use your photo, please go to settings—privacy—photo—allow to use [%@].
+
+无法使用您的麦克风,请在[设置]->[隐私]->[麦克风]中允许[%@]使用您的麦克风
+Unable to use your microphone, please go to settings—privacy—microphone—allow to use [%@].
+
+连接成功后,点击手机屏幕上方弹出的提示横幅跳转回%1$@(需打开通知横幅开关)\n如未接收到提示,请手动回到%2$@如
+Click pop-up at the top of the phone's screen to jump back %1$@ (notification banner should be on) \n after connecting successfully, if no message received, please go back to %2$@,for example:
+
+无法使用您的相机,请在[设置]->[隐私]->[相机]中允许[%@]使用您的相机
+Unable to use your camera, please go to settings—privacy—camera—allow to use [%@].
+
+%@与%@通话结束,通话时长:%@
+%@ ends call with %@, call time: %@
+
+若还是没有看到蓝灯闪烁,则请用顶针长按reset键直到"滴"声响起,设备重启后蓝灯将会闪烁并且发出"欢迎使用%@智能门铃"的提示音
+If blue light is still not flashing, please use a pin to stick the “reset” button until you heard “di” voice and “welcome to use %@ smart doorbell”.
+
+这台设备已经被%@绑定了,请联系这个用户解绑这台设备后,您才能绑定这台设备
+This device has been bound by %@, please contact the owner to unbind it firstly.
+设备更新
+Device update
+该国家码暂不支持发送手机短信
+The country code temporarily does not support sending SMS messages
+您已经拥有该设备了
+You have already added the device
+
+
+

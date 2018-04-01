@@ -1,0 +1,24 @@
+{% extends 'trans/base.html' %}
+{% load bootstrap3 %}
+{% block title %}小豚当家翻译资源汇总{% endblock %}
+<script type="text/javascript">
+    function showChange(){
+        alert(1);
+    };
+</script>
+{% block content %}
+    <table class="table table-striped">
+        <tr class="success">
+            <th>编号</th>
+            <th>中文</th>
+            <th>英文</th>
+        </tr>
+        {% for tran in yyy.values %}
+            <tr onclick="showChange()">
+                <td>{{ forloop.counter}}</td>
+                <td>{{ tran.zh}}</td>
+                <td>{{ tran.en}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
