@@ -345,7 +345,7 @@ Unable to obtain unlocked password.
 这台设备已经被%@绑定了,请联系这个用户解绑这台设备后,您才能绑定这台设备
 This device has been binded, please contact the owner to unbind it firstly.
 请输入昵称
-Please enter device name
+Please enter nickname
 重要提醒
 Important reminder
 WiFi名过长
@@ -575,7 +575,7 @@ All
 找回密码
 Retrieve the password
 长按开锁
-Long press lock
+Long press to unlock
 错误
 Error
 无法使用摄像头
@@ -983,7 +983,7 @@ Generate temporary password
 Service Hours: Monday to Friday
 输入手机号
 Enter telephone number
-%@可能已被复位,请尝试重新添加设备
+%@可能已被复位,请尝试重新添加这台设备
 %@ might be restarted, please try to re-add it.
 验证码已发送至手机:%@
 The verification code has been sent to your phone: %@
@@ -1102,6 +1102,33 @@ Device update
 The country code temporarily does not support sending SMS messages
 您已经拥有该设备了
 You have already added the device
+我的账号
+My Account
+开锁失败
+Failed to unlock 
+您收到一台分享的设备
+You receive a shared device 
+您的一台设备被对方取消了分享
+One of your devices was canceled by the others
+天
+Day
+验证码已发送至:%@
+Verification code has been sent to：%@
+手机号或邮箱
+Phone number or email
+输入账号
+Enter your account
+账号格式不正确
+Incorrect account format
+邮箱
+Email
+输入邮箱
+Enter your email
+邮箱格式不正确
+Incorrect email format
+账号已被使用
+Account has been used
+
 
 
 
