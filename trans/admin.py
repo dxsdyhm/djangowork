@@ -4,4 +4,8 @@ from django.contrib import admin
 
 from trans import models
 
-admin.site.register(models.TransInfo)
+
+@admin.register(models.TransInfo)
+class TransInfoAdmin(admin.ModelAdmin):
+    list_display = ('zh', 'en')
+    list_filter = ('useType',)

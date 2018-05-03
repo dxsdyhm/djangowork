@@ -37,7 +37,7 @@ def index(request):
     return HttpResponse(u'i love android')
 
 def home(request):
-    createTestData()
+    # createTestData()
     type=request.GET.get('type',1)
     yyy=TransInfo.objects.filter(useType=type)
     return render(request,'trans/home.html',{'yyy':yyy})
