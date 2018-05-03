@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',trans_views.index),
     path('home',trans_views.home,name='home'),
+    path('pgywebhook',trans_views.pgyWebHook,name='pgywebhook'),
 ]
