@@ -127,7 +127,6 @@ def wxOpenTest(request):
         if resGetToken.status_code==200:
             token=resGetToken.json()['access_token']
             resSend = requests.post(wxurl_sendMessage % token, data=getSendPost(user_openid,temple_id), headers=header_dict)
-            print (resSend.text)
             return HttpResponse(resSend.text)
         else:
             return HttpResponse(response.text)
