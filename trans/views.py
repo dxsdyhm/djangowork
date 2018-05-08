@@ -96,7 +96,8 @@ def changePosBody(body):
     print (posBody)
     return posBody.encode('utf-8')
 
-wxurl_getToken='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx146d06d152af3d07&secret=6e4b87f16ab21f6eeaa56a9648a5dad4'
+# wxurl_getToken='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx146d06d152af3d07&secret=6e4b87f16ab21f6eeaa56a9648a5dad4'
+wxurl_getToken='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxcaf33ba1733ae02f&secret=a73e91f6826b8fcb2f4783179a9a877f'
 wxurl_sendMessage='https://api.weixin.qq.com/cgi-bin/message/template/subscribe?access_token=%s'
 wx_sendMessage_post=u'''
 {
