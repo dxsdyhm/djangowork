@@ -101,7 +101,7 @@ wxurl_sendMessage='https://api.weixin.qq.com/cgi-bin/message/template/subscribe?
 wx_sendMessage_post=u'''
 {
   "touser": "%s",
-  "template_id": "_dxyQ9KpIPEcLKUxuoQWg37HPGK46oMMR9WS7KGdUx4",
+  "template_id": "%s",
   "url":"https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU3NjA4MTc2Mg==&scene=116#wechat_redirect",
   "scene": "1023",
   "title": "一键订阅测试",
@@ -113,8 +113,8 @@ wx_sendMessage_post=u'''
   }
 }
 '''
-def getSendPost(userid):
-    SendPos= wx_sendMessage_post % userid
+def getSendPost(userid,templid='_dxyQ9KpIPEcLKUxuoQWg37HPGK46oMMR9WS7KGdUx4'):
+    SendPos= wx_sendMessage_post % (userid,templid)
     return SendPos.encode('utf-8')
 
 # 一键关注公众号模拟接口
@@ -122,12 +122,13 @@ def getSendPost(userid):
 def wxOpenTest(request):
     if request.method == 'POST':
         user_openid=request.POST.get('openid','')
+        temple_id=request.POST.get('templiId','')
         print (user_openid)
         resGetToken=requests.get(wxurl_getToken,headers=header_dict)
         if resGetToken.status_code==200:
             token=resGetToken.json()['access_token']
             print (token)
-            resSend = requests.post(wxurl_sendMessage % token, data=getSendPost(user_openid), headers=header_dict)
+            resSend = requests.post(wxurl_sendMessage % token, data=getSendPost(user_openid,temple_id), headers=header_dict)
             print (resSend.text)
             return HttpResponse(resSend.text)
         else:
