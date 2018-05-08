@@ -122,7 +122,7 @@ def getSendPost(userid,templid='_dxyQ9KpIPEcLKUxuoQWg37HPGK46oMMR9WS7KGdUx4'):
 def wxOpenTest(request):
     if request.method == 'POST':
         user_openid=request.POST.get('openid','')
-        temple_id=request.POST.get('templiId','')
+        temple_id=request.POST.get('templeteid','')
         resGetToken=requests.get(wxurl_getToken,headers=header_dict)
         if resGetToken.status_code==200:
             token=resGetToken.json()['access_token']
