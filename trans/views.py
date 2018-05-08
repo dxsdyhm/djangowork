@@ -95,3 +95,42 @@ def changePosBody(body):
     posBody=pos % (title,text,link)
     print (posBody)
     return posBody.encode('utf-8')
+
+wxurl_getToken='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx146d06d152af3d07&secret=6e4b87f16ab21f6eeaa56a9648a5dad4'
+wxurl_sendMessage='https://api.weixin.qq.com/cgi-bin/message/template/subscribe?access_token=%s'
+wx_sendMessage_post=u'''
+{
+  "touser": "%s",
+  "template_id": "_dxyQ9KpIPEcLKUxuoQWg37HPGK46oMMR9WS7KGdUx4",
+  "url":"https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU3NjA4MTc2Mg==&scene=116#wechat_redirect",
+  "scene": "1023",
+  "title": "一键订阅测试",
+  "data": {
+    "content": {
+      "value": "这是一次测试44",
+      "color": "#ff0000"
+    }
+  }
+}
+'''
+def getSendPost(userid):
+    SendPos= wx_sendMessage_post % userid
+    return SendPos.encode('utf-8')
+
+# 一键关注公众号模拟接口
+@csrf_exempt
+def wxOpenTest(request):
+    if request.method == 'POST':
+        user_openid=request.POST.get('openid','')
+        print (user_openid)
+        resGetToken=requests.get(wxurl_getToken,headers=header_dict)
+        if resGetToken.status_code==200:
+            token=resGetToken.json()['access_token']
+            print (token)
+            resSend = requests.post(wxurl_sendMessage % token, data=getSendPost(user_openid), headers=header_dict)
+            print (resSend.text)
+            return HttpResponse(resSend.text)
+        else:
+            return HttpResponse(response.text)
+    else:
+        return HttpResponse('request method error need POST but now is %s' % request.method)
