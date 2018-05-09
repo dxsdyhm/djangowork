@@ -74,7 +74,9 @@ pos=u'''
 }
 '''
 
-url = 'https://oapi.dingtalk.com/robot/send?access_token=af42bec477aeee14b5e47e0bb3f1d6aca103f4477dc1aaebf1616b833c007e82'
+# url = 'https://oapi.dingtalk.com/robot/send?access_token=af42bec477aeee14b5e47e0bb3f1d6aca103f4477dc1aaebf1616b833c007e82'
+# 正式
+url = 'https://oapi.dingtalk.com/robot/send?access_token=f5675f20956bedfc2459385e570a12aa6c82457b18150791d0ce144775f448a1'
 # url = 'https://oapi.dingtalk.com/robot/send?access_token=eba1d9124acf2ae08cff6f65e053cff6e15caa02c9e4dcf2acf59e872ba0eafd'
 header_dict = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko',"Content-Type": "application/json"}
 
