@@ -23,4 +23,5 @@ urlpatterns = [
     path('home',trans_views.home,name='home'),
     path('pgywebhook',trans_views.pgyWebHook,name='pgywebhook'),
     path('wxOpenTest',trans_views.wxOpenTest,name='wxOpenTest'),
+    path('user/followOfficialAccounts',trans_views.wxOpenTest,name='wxOpen'),
 ]

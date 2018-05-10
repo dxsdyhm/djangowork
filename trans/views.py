@@ -105,7 +105,7 @@ wx_sendMessage_post=u'''
   "touser": "%s",
   "template_id": "%s",
   "url":"https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU3NjA4MTc2Mg==&scene=116#wechat_redirect",
-  "scene": "1023",
+  "scene": "%s",
   "title": "一键订阅测试",
   "data": {
     "content": {
@@ -115,20 +115,21 @@ wx_sendMessage_post=u'''
   }
 }
 '''
-def getSendPost(userid,templid='_dxyQ9KpIPEcLKUxuoQWg37HPGK46oMMR9WS7KGdUx4'):
-    SendPos= wx_sendMessage_post % (userid,templid)
+def getSendPost(userid,scen,templid='_dxyQ9KpIPEcLKUxuoQWg37HPGK46oMMR9WS7KGdUx4'):
+    SendPos= wx_sendMessage_post % (userid,templid,scen)
     return SendPos.encode('utf-8')
 
 # 一键关注公众号模拟接口
 @csrf_exempt
 def wxOpenTest(request):
     if request.method == 'POST':
-        user_openid=request.POST.get('openid','')
-        temple_id=request.POST.get('templeteid','')
+        user_openid=request.POST.get('ftouser','')
+        temple_id='w9tvnQj8dy0Bi7210U41rbV8qG5kx9aEAcqw-R4aacs'
+        scen=request.POST.get('fscene','')
         resGetToken=requests.get(wxurl_getToken,headers=header_dict)
         if resGetToken.status_code==200:
             token=resGetToken.json()['access_token']
-            resSend = requests.post(wxurl_sendMessage % token, data=getSendPost(user_openid,temple_id), headers=header_dict)
+            resSend = requests.post(wxurl_sendMessage % token, data=getSendPost(user_openid,scen,temple_id), headers=header_dict)
             return HttpResponse(resSend.text)
         else:
             return HttpResponse(response.text)
