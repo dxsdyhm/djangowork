@@ -135,3 +135,42 @@ def wxOpenTest(request):
             return HttpResponse(response.text)
     else:
         return HttpResponse('request method error need POST but now is %s' % request.method)
+
+
+pos_lanhu=u'''
+{
+     "msgtype": "text",
+     "text": {
+         "content": "%s"
+     },
+     "at": {
+         "atMobiles": [
+             "%s"
+         ],
+         "isAtAll": false
+     }
+ }
+'''
+lanhu_markdown=u'''
+标题：%s
+内容：%s
+[查看详情](%s)
+'''
+
+lanhu_url="https://oapi.dingtalk.com/robot/send?access_token=eba1d9124acf2ae08cff6f65e053cff6e15caa02c9e4dcf2acf59e872ba0eafd"
+@csrf_exempt
+def lanhuAt(request):
+    if request.method == 'POST':
+        title=request.POST.get('title','')
+        text=request.POST.get('text','')
+        url_link=request.POST.get('url','')
+        at=request.POST.get('at','')
+        response = requests.post(lanhu_url, data=changeLanhuPosData(title,text,url_link,at), headers=header_dict)
+        return HttpResponse(response.text)
+    else:
+        return HttpResponse(request.method)
+
+def changeLanhuPosData(title,text,url_link,at):
+    test=lanhu_markdown % (title,text,url_link)
+    posBody = pos_lanhu % (test,at)
+    return posBody.encode('utf-8')
