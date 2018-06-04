@@ -151,9 +151,26 @@ pos_lanhu=u'''
      }
  }
 '''
+
+pos_lanhu_link=u'''
+{
+     "msgtype": "markdown",
+     "markdown": {"title":"%s",
+     "text":"%s"
+     },
+     "at": {
+        "atMobiles": [
+            "%s"
+        ],
+        "isAtAll": true
+    }
+ }
+'''
 lanhu_markdown=u'''
-标题：%s
-内容：%s
+### %s
+> %s
+>
+>\n\n
 [查看详情](%s)
 '''
 
@@ -165,7 +182,7 @@ def lanhuAt(request):
         text=request.POST.get('text','')
         url_link=request.POST.get('url','')
         at=request.POST.get('at','')
-        response = requests.post(lanhu_url, data=changeLanhuPosData(title,text,url_link,at), headers=header_dict)
+        response = requests.post(lanhu_url, data=changeLanhuPosDataLink(title,text,url_link,at), headers=header_dict)
         return HttpResponse(response.text)
     else:
         return HttpResponse(request.method)
@@ -174,3 +191,8 @@ def changeLanhuPosData(title,text,url_link,at):
     test=lanhu_markdown % (title,text,url_link)
     posBody = pos_lanhu % (test,at)
     return posBody.encode('utf-8')
+
+def changeLanhuPosDataLink(title,text,url_link,at):
+    tex=lanhu_markdown % (title,text,url_link)
+    posbody= pos_lanhu_link % (title,tex,at)
+    return posbody.encode('utf-8')
