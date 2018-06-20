@@ -196,3 +196,12 @@ def changeLanhuPosDataLink(title,text,url_link,at):
     tex=lanhu_markdown % (title,text,url_link)
     posbody= pos_lanhu_link % (title,tex,at)
     return posbody.encode('utf-8')
+
+
+@csrf_exempt
+def firimWebHook(request):
+    if request.method == 'POST':
+        body=str(request.body,encoding = "utf-8")
+        return HttpResponse(request.method)
+    else:
+        return HttpResponse(request.method)
