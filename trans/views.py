@@ -92,7 +92,7 @@ def pgyWebHook(request):
 def changePosBody(body):
     dirct_body = eval(body)
     title='小豚当家有新版本了（%s）' % dirct_body.get('os_version','null')
-    text='![](http://7xp6ld.com1.z0.glb.clouddn.com/ic_upgrad_head.png)\n\n### 小豚当家有新版本了（%s）\n\n ##### 更新内容：\n\n\n\n  %s' % (dirct_body['os_version'],dirct_body['notes'])
+    text='![ic_upgrad_head.png](https://i.loli.net/2018/11/22/5bf695b584614.png)\n\n### 小豚当家有新版本了（%s）\n\n ##### 更新内容：\n\n\n\n  %s' % (dirct_body['os_version'],dirct_body['notes'])
     link=dirct_body.get('link','https://www.pgyer.com/wanzen')
     posBody=pos % (title,text,link)
     return posBody.encode('utf-8')
