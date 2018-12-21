@@ -87,7 +87,8 @@ def pgyWebHook(request):
         response = requests.post(url, data=changePosBody(body), headers=header_dict)
         return HttpResponse(response.text)
     else:
-        return HttpResponse(request.method)
+        res="method:%s,test:%s"
+        return HttpResponse(res % (request.method,"1"))
 
 def changePosBody(body):
     dirct_body = eval(body)
