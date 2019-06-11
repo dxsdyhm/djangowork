@@ -143,25 +143,13 @@ def wxOpenTest(request):
 @csrf_exempt
 def wxUrlTest(request):
     if request.method == 'GET':
-        token=request.POST.get('token','')
-        timestamp=request.POST.get('timestamp','')
-        nonce=request.POST.get('nonce','')
-        echostr=request.POST.get('echostr','')
-        parems=list({token,timestamp,nonce})
-        parems.sort()
-        result=parems[0]+parems[1]+parems[2]
-        test=hashlib.sha1(result).hexdigest()
+        token=request.GET.get('token','')
+        timestamp=request.GET.get('timestamp','')
+        nonce=request.GET.get('nonce','')
+        echostr=request.GET.get('echostr','')
         return HttpResponse(echostr)
     else:
-        token = request.POST.get('token', '')
-        timestamp = request.POST.get('timestamp', '')
-        nonce = request.POST.get('nonce', '')
-        echostr = request.POST.get('echostr', '')
-        parems = list({token, timestamp, nonce})
-        parems.sort()
-        result = parems[0] + parems[1] + parems[2]
-        test = hashlib.sha1(result).hexdigest()
-        return HttpResponse(test)
+        return HttpResponse("not methed")
 
 
 pos_lanhu=u'''
