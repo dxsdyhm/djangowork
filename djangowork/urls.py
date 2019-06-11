@@ -26,4 +26,5 @@ urlpatterns = [
     path('user/followOfficialAccounts',trans_views.wxOpenTest,name='wxOpen'),
     path('lanhuat',trans_views.lanhuAt,name='lanhuat'),
     path('firimwebhook',trans_views.firimWebHook,name='firimwebhook'),
+    path('wxUrlTest',trans_views.wxUrlTest,name='wxUrlTest'),
 ]

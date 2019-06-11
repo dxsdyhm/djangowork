@@ -1,4 +1,6 @@
 # coding:utf-8
+import hashlib
+
 from django.http import StreamingHttpResponse
 from django.shortcuts import render
 from django.http import HttpResponse
@@ -136,6 +138,30 @@ def wxOpenTest(request):
             return HttpResponse(response.text)
     else:
         return HttpResponse('request method error need POST but now is %s' % request.method)
+
+# 一键关注公众号模拟接口
+@csrf_exempt
+def wxUrlTest(request):
+    if request.method == 'GET':
+        token=request.POST.get('token','')
+        timestamp=request.POST.get('timestamp','')
+        nonce=request.POST.get('nonce','')
+        echostr=request.POST.get('echostr','')
+        parems=list({token,timestamp,nonce})
+        parems.sort()
+        result=parems[0]+parems[1]+parems[2]
+        test=hashlib.sha1(result).hexdigest()
+        return HttpResponse(echostr)
+    else:
+        token = request.POST.get('token', '')
+        timestamp = request.POST.get('timestamp', '')
+        nonce = request.POST.get('nonce', '')
+        echostr = request.POST.get('echostr', '')
+        parems = list({token, timestamp, nonce})
+        parems.sort()
+        result = parems[0] + parems[1] + parems[2]
+        test = hashlib.sha1(result).hexdigest()
+        return HttpResponse(test)
 
 
 pos_lanhu=u'''
