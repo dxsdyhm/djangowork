@@ -90,7 +90,7 @@ def pgyWebHook(request):
         return HttpResponse(response.text)
     else:
         res="method:%s,test:%s"
-        return HttpResponse(res % (request.method,"1"))
+        return HttpResponse(res % (request.method,"2"))
 
 def changePosBody(body):
     dirct_body = eval(body)
