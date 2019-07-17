@@ -226,6 +226,7 @@ def weixin(request):
     if request.method == 'POST':
         body = str(request.body, encoding="utf-8")
         print(request.body)
+        print(body)
         return HttpResponse(body)
     elif request.method == 'GET':
         print(request.GET)
