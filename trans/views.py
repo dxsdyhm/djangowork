@@ -13,6 +13,8 @@ from django.forms.models import model_to_dict
 import json
 import requests
 import ast
+from wechatpy import parse_message
+from wechatpy.replies import TextReply
 
 
 def createTestData():
@@ -224,10 +226,11 @@ def firimWebHook(request):
 @csrf_exempt
 def weixin(request):
     if request.method == 'POST':
-        body = str(request.body, encoding="utf-8")
-        print(request.body)
-        print(body)
-        return HttpResponse(body)
+        msg=parse_message(request.body)
+        if msg.type=='text':
+            replay=TextReply(content=msg.content,message=msg)
+            return HttpResponse(replay.render())
+        return HttpResponse(TextReply(content="hah"))
     elif request.method == 'GET':
         print(request.GET)
         return HttpResponse(request.GET.get('echostr',default='110'))
