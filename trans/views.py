@@ -227,4 +227,5 @@ def weixin(request):
         body = str(request.body, encoding="utf-8")
         return HttpResponse(body)
     elif request.method == 'GET':
-        return HttpResponse(request.GET.get('signature',default='110'))
+        print(request.GET)
+        return HttpResponse(request.GET.get('echostr',default='110'))
