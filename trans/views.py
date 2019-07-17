@@ -160,7 +160,7 @@ def wxUrlTest(request):
         if msg.type == 'text':
             print(msg)
             client.message.send_text(msg.source, '客服消息测试')
-        return HttpResponse(EmptyReply.render())
+        return HttpResponse(EmptyReply().render())
 
 
 pos_lanhu=u'''
