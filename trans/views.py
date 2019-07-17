@@ -225,6 +225,7 @@ def firimWebHook(request):
 def weixin(request):
     if request.method == 'POST':
         body = str(request.body, encoding="utf-8")
+        print(request.body)
         return HttpResponse(body)
     elif request.method == 'GET':
         print(request.GET)
