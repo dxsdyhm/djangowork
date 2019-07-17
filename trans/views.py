@@ -14,8 +14,11 @@ import json
 import requests
 import ast
 from wechatpy import parse_message
-from wechatpy.replies import TextReply
-
+from wechatpy.replies import TextReply,EmptyReply
+from wechatpy import WeChatClient
+from wechatpy import create_reply
+# client = WeChatClient('wx86de7887993d7c0d', '9b7e9acdda2145d0b5d9bef7f13d6422')
+client = WeChatClient('wx65f9f2332760c43d', '9bd1a29396531fb4b7ae4ede9ee6e0a6')
 
 def createTestData():
     result=getAllTrans()
@@ -45,6 +48,7 @@ def index(request):
 
 def home(request):
     # createTestData()
+    client.customservice.add_account('a@wx65f9f2332760c43d', '小精灵', 'qwe123')
     type=request.GET.get('type',1)
     yyy=TransInfo.objects.filter(useType=type)
     return render(request,'trans/home.html',{'yyy':yyy})
@@ -137,7 +141,7 @@ def wxOpenTest(request):
             resSend = requests.post(wxurl_sendMessage % token, data=getSendPost(user_openid,scen,temple_id), headers=header_dict)
             return HttpResponse(resSend.text)
         else:
-            return HttpResponse(response.text)
+            return HttpResponse("sdsds")
     else:
         return HttpResponse('request method error need POST but now is %s' % request.method)
 
@@ -150,8 +154,13 @@ def wxUrlTest(request):
         nonce=request.GET.get('nonce','')
         echostr=request.GET.get('echostr','')
         return HttpResponse(echostr)
-    else:
-        return HttpResponse("not methed")
+    elif request.method == 'POST':
+        # 回复空消息
+        msg = parse_message(request.body)
+        if msg.type == 'text':
+            print(msg)
+            client.message.send_text(msg.source, '客服消息测试')
+        return HttpResponse(EmptyReply.render())
 
 
 pos_lanhu=u'''
