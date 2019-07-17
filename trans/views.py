@@ -220,3 +220,11 @@ def firimWebHook(request):
         return HttpResponse(request.method)
     else:
         return HttpResponse(request.method)
+
+@csrf_exempt
+def weixin(request):
+    if request.method == 'POST':
+        body = str(request.body, encoding="utf-8")
+        return HttpResponse(body)
+    elif request.method == 'GET':
+        return HttpResponse(request.GET.get('signature',default='110'))
